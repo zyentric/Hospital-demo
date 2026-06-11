@@ -49,10 +49,10 @@ const Consultation: React.FC = () => {
                 </Box>
 
                 <Box sx={{ width: { xs: '100%', sm: 'calc(50% - 12px)' } }}>
-                  <TextField fullWidth label="Preferred Date" type="date" InputLabelProps={{ shrink: true }} required />
+                  <TextField fullWidth label="Preferred Date" type="date" variant="outlined" slotProps={{ inputLabel: { shrink: true } }} required />
                 </Box>
                 <Box sx={{ width: { xs: '100%', sm: 'calc(50% - 12px)' } }}>
-                  <TextField fullWidth label="Preferred Time" type="time" InputLabelProps={{ shrink: true }} required />
+                  <TextField fullWidth label="Preferred Time" type="time" variant="outlined" slotProps={{ inputLabel: { shrink: true } }} required />
                 </Box>
 
                 <Box sx={{ width: '100%' }}>

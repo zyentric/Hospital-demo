@@ -34,7 +34,7 @@ const Appointments: React.FC = () => {
                   <TextField fullWidth label="Email Address" type="email" variant="outlined" />
                 </Box>
                 <Box sx={{ width: { xs: '100%', sm: 'calc(50% - 12px)' } }}>
-                  <TextField fullWidth label="Preferred Date" type="date" InputLabelProps={{ shrink: true }} required />
+                  <TextField fullWidth label="Preferred Date" type="date" variant="outlined" slotProps={{ inputLabel: { shrink: true } }} required />
                 </Box>
 
                 <Box sx={{ width: '100%' }}>

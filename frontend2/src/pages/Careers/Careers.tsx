@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Typography, Card, CardContent, Button, Divider } from '@mui/material';
+import { Box, Container, Typography, Card, Button } from '@mui/material';
 
 const Careers: React.FC = () => {
   return (

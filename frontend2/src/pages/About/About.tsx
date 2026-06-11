@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Typography, Card } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 
 const About: React.FC = () => {
   return (

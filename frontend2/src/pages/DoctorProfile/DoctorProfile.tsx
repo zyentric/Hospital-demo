@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Typography, Card, CardContent, Button, Avatar, Chip, Divider } from '@mui/material';
+import { Box, Container, Typography, Card, Button, Avatar, Chip, Divider } from '@mui/material';
 import { doctors } from '../../data/dummyData';
 import { keyframes } from '@mui/system';
 
